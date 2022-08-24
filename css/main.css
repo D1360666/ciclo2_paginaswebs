@@ -1,0 +1,33 @@
+h1{
+    background-color: black;
+    color: rgb(123, 255, 0);
+ 
+}
+p{
+    background-color: bisque;
+    color:chocolate;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagen{
+    background-color: blanchedalmond;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blue;
+    height: 300px;
+    width: 300px;
+ 
+}
+
+.botones{
+    background-color: antiquewhite;
+    border-style: double;
+    border-radius: 10px;
+    color: darkblue;
+    font-size: large;
+    margin: 10px;
+    padding: 5px;
+}
+
+
