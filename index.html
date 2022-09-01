@@ -13,25 +13,11 @@
 
 </head>
 <body>
-
-<div class="container">
-    <div class="row">
-        <div class="col">
-            Columna 1
-        </div>
-        <div class="col">
-            Columna 2
-        </div>
-        <div class="col">
-            Columna 3
-        </div>
-    </div>
-</div>
-
+<section id="inicio">
     <a class="botones" href="#seccion1">Diseño Web</a>
     <a class="botones" href="#seccion2">Operador PC</a>
     <a class="botones" href="#seccion3">Marketing Digital</a>
-
+</section>
     <h1 class="botones">Bienvenidos</h1>
     <p>Este es un párrafo de bienvenida</p>
     <hr>
@@ -39,7 +25,108 @@
 
     <h1>Esta es la bienvenida 2</h1>
     <p>Este es otro párrafo</p>
-    <img id="imagen" src="./img/pepe.jpg" alt="Imagen">
     
+    <section class="secciones" name="seccion1" id="seccion1">
+        <h2>Tabla de posiciones del futbol uruguayo</h2>
+        <p>Conoce cómo viene la tabla de posiciones de Primera División de Uruguay</p>
+        <table id="posiciones" class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Pos</th>
+                    <th scope="col"></th>
+                    <th scope="col">Equipo</th>
+                    <th scope="col">Pts</th>
+                    <th scope="col">Pj</th>
+                    <th scope="col">Pg</th>
+                    <th scope="col">Pe</th>
+                    <th scope="col">Pp</th>
+                    <th scope="col">Gf</th>
+                    <th scope="col">Gc</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td><img style="width:24px; height:24px;" src="https://statics-files.tycsports.com/escudos/197.png" alt="River Plate"></tdclass=>
+                    <td>River Plate</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>13</td>
+                    <td>3</td>
+                </tr>              
+                <tr>
+                    <th scope="row">2</th>
+                    <td><img style="width:24px; height:24px;" src="https://statics-files.tycsports.com/escudos/83.png" alt="Nacional"></tdclass=>
+                    <td>Nacional </td>
+                    <td>12</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>2</td>
+                </tr>                  
+                <tr>
+                    <th scope="row">3</th>
+                    
+                    <td><img style="width:24px; height:24px;" src="https://statics-files.tycsports.com/escudos/110.png" alt="Defensor Sporting"></td>
+                    <td>Defensor Sporting</td>
+                    <td>9</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>5</td>
+                </tr>                 
+                <tr>
+                    <th scope="row">4</th>
+                
+                    <td><img style="width:24px; height:24px;" src="https://statics-files.tycsports.com/escudos/959.png" alt="Deportivo Maldonado"></td>
+                    <td>Maldonado</td>
+                    <td>9</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>4</td>
+                </tr>    
+                    <th scope="row">5</th>
+                    <td><img style="width:24px; height:24px;" src="https://statics-files.tycsports.com/escudos/72.png" alt="Danubio"></td>
+                    <td>Danubio</td>
+                    <td>9</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+                
+    </section>
+    <section class="secciones" name="seccion2" id="seccion2">
+        
+    </section>
+    <section class="secciones"name="seccion3" id="seccion3">
+        <a class="botones" href="#inicio">Arriba</a>
+        <h2>FOMULARIOS</h2>
+        <p>Los formularios en HTML sirven al propósito de recolectar información proporcionada por los visitantes del sitio, la cual es luego enviada nuevamente al servidor. Para su correcto funcionamiento es importante que el formulario provisto en HTML sea acompañado de un código del lado servidor, al que denominaremos "agente procesador", que se encargará de recibir y procesar la información como el autor vea conveniente. Este procesamiento puede consistir en, por ejemplo, el almacenamiento de la información o su envío mediante correo electrónico.</p>
+        <form action="http://localhost:8080/activities" method="post">
+            <p>Ingrese su correo: </p><input type="text">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="radio">
+            <input type="radio">
+            <input type="month">
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
 </body>
 </html>
